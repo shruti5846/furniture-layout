@@ -1,0 +1,162 @@
+*{margin: auto; padding: auto; box-sizing: border-box;}
+.container{padding:0px 15px; margin: auto; width: auto; max-width:1170px;}
+
+.cls::after{content:""; display: block; clear: both;}
+body{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/* header */
+#header{background-color:#ffffff; padding: 15px;}
+#header .logo{float: left;}
+#header .container ul{float: right;}
+#header .container ul li{display: inline-block; margin-left: 25px; margin-top: 10px;}
+#header .container ul li a{color: #060606; text-decoration: none;}
+#header .container img{max-width: 50%;}
+#header .container ul li a:hover {color:#d8a123;}
+#header .link .home{color:#d8a123;}
+
+/* slider leftsection */
+#slidersec{background-color: #fff9ef; padding:50px 0px;}
+#slidersec .slidermain .sliderlft{float: left;width:50%; margin-top: 150px;}
+#slidersec .slidermain h5{ color:#d8a123;}
+#slidersec  .sliderlft h1{margin-top:5px;}
+#slidersec  .sliderlft h1 span{color: #d8a123;display:block;}
+#slidersec .sliderlft p{margin-top: 5px;}
+.shop{padding:10px;display: inline-block; background-color:rgb(8, 8, 8);margin-top: 20px;color:rgb(248, 252, 252);text-decoration: none;}
+
+/* sliderrightsection */
+#slidersec  .sliderrgt{  float:left;  width: 50%;}
+#slidersec .sliderrgt img{ max-width: 100%;}
+
+/* options */
+
+/* offer */
+#offer{margin-top:40px;}
+#offer .offersection .bx{ width:33.33%;float: left;padding:0px 15px;}
+.offersection .offerin{background-color: #daddc0; padding:20px 20px;font-size: 20px;}
+.rs{margin-top: 10px;color:black;}
+del{color:grey;}
+.now{margin-top: 20px; display:inline-block;text-decoration: none; color: black;}
+.offerin img{width:60%;display: block;margin-right: 20px;}
+
+
+
+ /* room inspiration */
+ #roomins{margin-top: 30px;}
+ #roomins .room img{float: left;  margin-left: 15px;  max-width:100%; margin-top: 30px;}
+ .rgtsd{float: left; width:50%;}
+ .lftsd{float: right; width:50%;}
+ .ins{margin-left: 120px; margin-top: 80px;}
+ .lorm{margin-left:120px; margin-top:20px;}
+ .shopn{padding:10px;display: inline-block;text-decoration: none; color:rgb(248, 252, 252);background-color:rgb(8, 8, 8);margin-top: 30px; margin-left: 120px;}
+
+ /* products */
+ #products{margin-top: 100px;}
+ h6{color: #d8a123; margin-left: 15px; font-size: 10px;}
+ h2{margin-left: 13px; margin-top: 15px;}
+ #products .furnitures ul li a{color: #060606;}
+ #products .furnitures ul li a:hover{color: #d8a123;}
+ .furnitures ul{float: right;margin-right: 20px;}
+ .furnitures ul li{display:inline-block; margin-left: 25px;}
+ .furnitures ul li a{text-decoration: none;}
+ .sections{margin-top: 40px;}
+ .box{ width: 25%;float: left; padding:0px 15px;}
+ .boxin{background-color: #fff9ef; padding:30px 20px;}
+ .boxin img{width: 60%; margin-top: 40px;background-color: #fff9ef;display: block;}
+ .grey{padding: 10px 15px 20px 15px;display: inline-block;}
+ .grey ul{width: 100%;margin-top: 20px;}
+ .grey ul li{width:22px;float: left;list-style:none;}
+ .grey ul li img{width: 40%;}
+ .grey ul span{color: #9b9b9b;font-size: 10px;margin-top: 10px;}
+ .grey .chair{color:#9b9b9b;font-size: 12px;margin-top:10px;margin-left: 40px;}
+ .price  span{ margin-left: 70px;}
+ .price{margin-top: 10px;}
+ 
+
+
+ /* deal */
+ #deal{margin-top:30px; background-color: #daddc0;}
+ #deal .week{background-color: #daddc0;display: inline-block;padding: 70px 0px;}
+ #deal .lftimg img{float: left; margin-left:20px; margin-top: 20px; width: 70%; background-color: #daddc0;}
+ .lftimg{float: left; width:50%;}
+ .rgttxt{float: right; width: 50%;}
+.rgttxt .small{ margin-top:80px;margin-left: 10px;}
+h3{margin-top: 10px; margin-left: 10px; font-size: 30px;}
+ del{color:grey;margin-right: 10px;}
+ .rates{margin-left: 10px;font-size: 30px;margin-top: 20px;}
+ .offrnd{margin-top:90px;}
+ .offrnd .hurry{float: left;width: 20%;margin-top: 25px;}
+ .offrnd .hurry h5{color: black;margin-left: 10px;}
+ .offrnd .hurry p{ margin-top: 5px;margin-left: 10px;}
+ .offrnd .dates{ float: right;width: 80%;padding: 15px 0px;}
+ .offrnd .dates .time{background-color: #f8f9ed;margin-left: 10px;}
+ .dates span{color:#d8a123; font-size: 20px;margin-left: 30px;margin-top: 10px;}
+ .dates .time .day{width:25%;float: left;padding: 15px 10px;}
+ .time .day p{margin-top: 5px;margin-left: 25px;margin-bottom: 5px;}
+
+  
+
+ /* clients */
+ #livingroom{margin-top: 30px;}
+ #livingroom .lftliving{float: left; width:50%;}
+ #livingroom .lftliving h2{margin-top: 30px;margin-left: 1px;}
+ p.about{margin-top: 20px;}
+ .josen{padding:30px 0px;background-color: #fff9ef;margin-top: 30px;width: 430px;float: left;}
+ .lrm{margin-left: 20px; margin-right: 20px;}
+ .lrm::after{content:""; display:block; height: 2px; width: 400px; margin: auto;background-color: #d8a123;margin-top: 20px;}
+ .thank img{width:60px;margin-top: 30px;margin-left: 20px;}
+ .thank h3{float:right;;margin-left: 10px;margin-top: 40px;margin-right: 180px;font-size: 25px;}
+ .thank h3 span{color: #9b9b9b;display: block;font-size: 15px;margin-top: 3px;margin-left: 3px;}
+ #livingroom .rgtliving{float:right; width:50%;}
+ #livingroom .rgtliving img{float: right;  width:100%; margin-top: 40px;}
+
+
+ /* footer */
+ #footer{background-color: black;padding: 50px 0px;margin-top: 40px;}
+ #footer .smain{background-color:#ffffff;}
+ .bgclr{background-color: #ffffff;padding: 10px 0px;height: 90px;}
+ .smain .lftinfo{float: left;}
+ .call{float: left;display: inline-block;margin-top: 15px;}
+ .call img{width:40px;margin-left: 30px;}
+ .call p{float: right;margin-left: 20px;}
+ .gmail{float:right;display: inline-block;margin-top: 15px;margin-left: 30px;}
+ .gmail img{width:40px;margin-right:20px;margin-left: 20px;}
+ .gmail p{float:right;margin-left: 10px;margin-right: 30px;}
+ /* .smain .rgtinfo{float:right;} */
+ .join h4{font-size: 20px;margin-left: 90px;margin-top: 10px;}
+ .join span{margin-left: 90px;margin-top: 20px;font-size: 13px;}
+ .join{float: left;}
+ .placeholder{float: right;margin-top: 20px;margin-right: 20px;}
+ .orange{text-align: center;background-color: #d8a123;text-decoration: none;color: #ffffff;padding: 1px;}
+ .aboutinfo{margin-top: 20px;float: left;display: inline-block;}
+ .one{float: left;display:inline-block}
+ .one ul li img{width:30%;}
+ .one ul li{color: #ffffff;list-style: none;margin-top: 15px;}
+ .one .delivers:hover{color: #d8a123;}
+ .one ul li a{color: #ffffff;text-decoration: none;}
+ .aboustus{float: left;display:block;margin-left: 50px;}
+ .whywechoose{float: left;display:block;margin-left: 50px;}
+ .MyAccounts{float: left;display:block;margin-left: 50px;}
+ .UsefulLinks{float:right;display:block;margin-left: 50px;}
+ .one ul li h4{font-size: 20px;margin-bottom: 30px;}
+ 
+ /* section3 */
+ /* .privacy::before{content: "";display: block;height: 2px;width:1000px; background-color: #ffffff;} */
+ .privacy{margin-top: 120px;display: inline-block;margin-left: 30px;}
+ .service{color: #ffffff;text-decoration: none;}
+ .pp{color: #ffffff;text-decoration: none;margin-left: 10px;}
+ 
+ .payment ul li{display: inline-block;float: right;}
+ .payment ul li img{width:40px;width: 50px;margin:0px 5px;}
+
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
